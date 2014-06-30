@@ -1,5 +1,4 @@
-for x in $*
+for file in $*
 do
-	mv $x ${x/.csv/marta.csv}
-	print $x
+	mv $file ${file/txt/csv}
 done
